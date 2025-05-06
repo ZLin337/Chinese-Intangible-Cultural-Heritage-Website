@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en" style="font-size: 14px;">
+
+
+<head>
+    <title>Chinese Intangible Cultural Heritage</title>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="secondStyle.css" title="Alternate Styles" disabled>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fullcalendar@5.11.3/main.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@5.11.3/main.min.js"></script>
+
+
+</head>
+
+<body>
+    <!-- Header container with logo, title, and social sharing buttons -->
+    <div class="header-container">
+        <img src="source/logo.jpeg" alt="logo" class="logo">
+        <div class="current-date-time"></div>
+        <h1>Chinese Intangible Cultural Heritage</h1>
+        <div class="social-share">
+            <!-- Facebook, LinkedIn, and Twitter sharing buttons -->
+            <div id="fb-root"></div>
+            <script async defer crossorigin="anonymous"
+                src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v19.0" nonce="3UgVxWhG"></script>
+            <div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button"
+                data-size="small">
+                <a target="_blank"
+                    href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse"
+                    class="fb-xfbml-parse-ignore">Share</a>
+            </div>
+            <script src="https://platform.linkedin.com/in.js" async defer></script>
+            <script type="IN/Share" data-url="https://www.linkedin.com"></script>
+            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button"
+                data-show-count="false">Tweet</a>
+            <script async src="https://platform.twitter.com/widgets.js"></script>
+        </div>
+
+    </div>
+    <div>
+        <button id="changeStyles" style="min-width: 45px; min-height: 45px;">Change Style</button>
+    </div>
+
+    <!-- Navigation bar with links to different pages -->
+    <div class="top-bar">
+        <ul class="navigation">
+            <li class="item"><a href="index.html" style="color: #efc354;" aria-label="Home page">Home</a></li>
+            <li class="item"><a href="about.html" aria-label="About us">About</a></li>
+            <li class="item dropdown">
+                <a href="explore.html" aria-label="Explore content">Explore</a>
+                <ul class="second-bar">
+                    <li class="item"><a href="explore.html" aria-label="Explore more">explore</a></li>
+                    <li class="item"><a href="seemore.html" aria-label="See more content">see more</a></li>
+                </ul>
+            </li>
+
+            <li class="item"><a href="gallery.html" aria-label="View gallery">Gallery</a></li>
+            <li class="item"><a href="feedback.html" aria-label="Give feedback">Feedback</a></li>
+            <li class="item dropdown">
+                <a href="assignment.html" aria-label="View assignments">Assignment</a>
+                <ul class="second-bar">
+                    <li class="item"><a href="sitemap.html" aria-label="View site map">Sitemap</a></li>
+                    <li class="item"><a href="sourcelog.html" aria-label="View source log">Sourcelog</a></li>
+                    <li class="item"><a href="reflective.html" aria-label="Read reflective content">Reflecting</a></li>
+                    <li class="item"><a href="check.html" aria-label="check validation">Check</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Main content container -->
+    <div class="container" style="display:block;">
+        <div class="index-header" id="mainCTA">
+            <img src="source/introback.jpeg" alt="background of introduction to Chinese Intangible Cultural Heritage">
+            <div class="text-overlay">
+                <h3>INTRODUCTION</h3>
+                <p>Intangible Cultural Heritage (ICH), as defined by UNESCO, encompasses practices, expressions,
+                    and skills that form the nonphysical intellectual wealth of a community. This includes
+                    folklore,
+                    customs, beliefs, and traditions, distinct from tangible heritage like buildings and
+                    monuments.</p>
+                <p>Join us in exploring the richness of China's intangible cultural heritage and in carrying
+                    forward our cultural legacy!</p>
+                <a href="about.html" class="cta-button" aria-label="Learn more">Learn More</a>
+            </div>
+        </div>
+
+        <div class="scroll-container" id="secondCTA">
+            <div class="news-label">News</div>
+            <!-- <button class="scroll-btn left" aria-label="Scroll left">＜</button> -->
+            <div class="main-content">
+                <!-- News section -->
+                <div class="news">
+                    <!-- Example news item -->
+                    <div class="news-item">
+                        <img src="source/news1.jpg" alt="news1-Yingge Dance">
+                        <div class="text">
+                            <h3>Artists perform Yingge Dance at Burlington Arcade in London</h3>
+                            <p>LONDON, Feb. 11 (Xinhua) -- Yingge Dance, a form of folk dance popular in south China's
+                                Guangdong
+                                Province, was performed at Burlington Arcade in London on Saturday, offering a cultural
+                                feast
+                                for people there.</p>
+                            <h6>Source: Xinhua 2024-02-12 00:50:16</h6>
+                            <p>
+                                <a href="https://english.news.cn/20240212/0cdee26a80044bc49db49bf7129bdeb2/c.html#/"
+                                    aria-label="Read detailed news about Yingge Dance">
+                                    detailed news - click to see more</a>
+                            </p>
+                        </div>
+                    </div>
+                    <!-- Additional news items... -->
+                    <div class="news-item">
+                        <img src="source/news2.jpg" alt="news2- displays">
+                        <div class="text">
+                            <h3>Shanghai displays its intangible cultural heritage in Sydney</h3>
+                            <p>
+                                "Fair South Recalled - Shanghai lntangible Cultural Heritage Painting Exhibition" came
+                                to the Sydney Opera House, a
+                                UNESCO World Heritage site in Australia, on Tuesday.
+                            </p>
+                            <h6>Source: Wang Jie 22:14 UTC+8, 2024-04-02</h6>
+                            <p>
+                                <a href="https://www.shine.cn/feature/art-culture/2404024344/">
+                                    detailed news - click to see more</a>
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <button class="scroll-btn right" aria-label="Scroll right">＞</button> -->
+            <div class="scroll-prompt">Scroll to see more</div>
+        </div>
+
+
+        <!-- Explore section with images and links -->
+        <div class="explore">
+            <div class="text">
+                <h2>EXPLORE</h2>
+            </div>
+            <div class="img-container">
+                <div class="img_item">
+                    <a href="explore.html#literature-and-folklore" aria-label="Explore Literature and Folklore">
+                        <img src="source/ChineseTeas.jpg" alt="Literature and folklore">
+                        <h4>Literature and folklore</h4>
+                    </a>
+                </div>
+                <div class="img_item">
+                    <a href="explore.html#music-and-dance" aria-label="Explore Music and Dance">
+                        <img src="source/Yingge.png" alt="Music and Dance">
+                        <h4>Music and Dance</h4>
+                    </a>
+                </div>
+                <div class="img_item">
+                    <a href="explore.html#traditional-drama-and-folk-art" aria-label="Explore Drama and Folk Art">
+                        <img src="source/PekingOpera.png" alt="Traditional Drama and Folk Art">
+                        <h4>Traditional Drama and Folk Art</h4>
+                    </a>
+                </div>
+            </div>
+            <div class="img-container">
+                <div class="img_item">
+                    <a href="explore.html#traditional-sports-and-acrobatics"
+                        aria-label="Explore Traditional Sports and Acrobatics">
+                        <img src="source/Taichi.jpg" alt="Traditional Sports and Acrobatics">
+                        <h4>Traditional Sports and Acrobatics</h4>
+                    </a>
+                </div>
+                <div class="img_item">
+                    <a href="explore.html#art-skills" aria-label="Explore Art Skills">
+                        <img src="source/Information1.JPG" alt="Art Skills">
+                        <h4>Art Skills</h4>
+                    </a>
+                </div>
+                <div class="img_item">
+                    <a href="explore.html#medicament" aria-label="Explore Medicament">
+                        <img src="source/acupuncture.jpg" alt="Medicament">
+                        <h4>Medicament</h4>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sidebar area for additional content -->
+    <div class="sidebar"></div>
+
+    <!-- Footer with navigation links, relevant websites, and subscription form -->
+    <div class="footer">
+        <ul class="foot-navigation">
+            <li class="item"><a href="index.html" aria-label="Home page">Home</a></li>
+            <li class="item"><a href="about.html" aria-label="About us">About</a></li>
+            <li class="item"><a href="explore.html" aria-label="Explore">Explore</a></li>
+            <li class="item"><a href="gallery.html" aria-label="Gallery">Gallery</a></li>
+            <li class="item"><a href="feedback.html" aria-label="Feedback">Feedback</a></li>
+            <li class="item"><a href="assignment.html" aria-label="Assignment">Assignment</a></li>
+            <li class="item"><a href="sitemap.html" aria-label="Sitemap">Sitemap</a></li>
+            <li class="item"><a href="reflective.html" aria-label="Reflecting">Reflecting</a></li>
+            <li class="item"><a href="check.html" aria-label="check validation">Check</a></li>
+        </ul>
+        <div class="relevant_websites">
+            <h4>relevant websites</h4>
+            <div class="re_web">
+                <a href="https://ich.unesco.org/en/home#/"
+                    aria-label="Visit UNESCO Intangible Cultural Heritage Website">unesco Intangible Cultural Heritage
+                    Website</a>
+                <a href="https://www.ihchina.cn" aria-label="Visit Chinese Intangible Cultural Heritage Website">Chinese
+                    Intangible Cultural Heritage Website</a>
+            </div>
+        </div>
+        <div class="subscribe-section">
+            <h4>Stay Updated</h4>
+            <form action="subscribe" method="post" aria-label="Subscribe to newsletter">
+                <input type="email" name="email" placeholder="Enter your email" required>
+                <button type="submit" aria-label="Subscribe to our newsletter">Subscribe</button>
+            </form>
+        </div>
+        <div class="copyright">
+            <p>© 2024 Chinese Intangible Cultural Heritage. All rights reserved.</p>
+            <p>Author: Lin Zhuolan</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

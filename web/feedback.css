@@ -1,0 +1,143 @@
+/* Styling for the form */
+form {
+    background-color: #f0ce80b6;
+    padding: 20px;
+    /* Padding around the form */
+    border-radius: 8px;
+    /* Rounded corners */
+    margin: 20px auto;
+    /* Center the form with top and bottom margin */
+    width: 60%;
+    /* Set form width to 60% of the parent container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* Add a shadow for depth */
+}
+
+/* Styling for headings (h2 elements) */
+h2 {
+    font-size: 1.2rem;
+    /* Font size */
+    margin-bottom: 8px;
+    color: #333;
+}
+
+/* Styling for input fields */
+.input_border_green,
+input[type="email"],
+input[type="tel"] {
+    width: 100%;
+    /* Full width */
+    height: 40px;
+    /* Height of the input field */
+    padding: 8px;
+    /* Padding inside the input field */
+    margin-bottom: 16px;
+    /* Space below the input field */
+    border: 1px solid #a8bccd;
+    /* Light gray border */
+    border-radius: 4px;
+    /* Rounded corners */
+    font-size: 1rem;
+    /* Font size */
+}
+
+/* Styling for textarea */
+#feedback {
+    width: 100%;
+    /* Full width */
+    height: 120px;
+    /* Height of the textarea */
+    padding: 8px;
+    /* Padding inside the textarea */
+    margin-bottom: 16px;
+    /* Space below the textarea */
+    border: 1px solid #a8bccd;
+    /* Light gray border */
+    border-radius: 4px;
+    /* Rounded corners */
+    font-size: 1rem;
+    /* Font size */
+    resize: vertical;
+    /* Allow resizing in vertical direction only */
+}
+
+/* Button group styling */
+.input-group {
+    display: flex;
+    /* Use flexbox layout */
+    justify-content: space-between;
+    /* Space buttons apart */
+    margin-top: 16px;
+    /* Space above the button group */
+}
+
+/* Styling for submit and reset buttons */
+.input-group input[type="submit"],
+.input-group input[type="reset"] {
+    width: 48%;
+    /* Each button takes up nearly half the width */
+    padding: 10px;
+    /* Padding around the button */
+    border: none;
+    /* Remove border */
+    border-radius: 4px;
+    /* Rounded corners */
+    cursor: pointer;
+    /* Pointer cursor on hover */
+    font-size: 1rem;
+    /* Font size */
+}
+
+/* Styling for the submit button */
+input[type="submit"] {
+    background-color: rgb(78, 131, 244);
+    /* Blue background color */
+    color: white;
+    /* White text color */
+}
+
+/* Styling for the reset button */
+input[type="reset"] {
+    background-color: black;
+    /* Black background color */
+    color: white;
+    /* White text color */
+}
+
+/* Hover effect for submit button */
+input[type="submit"]:hover {
+    background-color: rgb(220, 206, 229);
+    /* Light purple background on hover */
+    border-color: rgb(144, 158, 239);
+    /* Purple border color on hover */
+}
+
+/* Hover effect for reset button */
+input[type="reset"]:hover {
+    background-color: rgb(176, 100, 226);
+    /* Darker purple background on hover */
+    border-color: rgb(144, 158, 239);
+    /* Purple border color on hover */
+}
+
+/* Gender options styling */
+.gender-options {
+    display: flex;
+    /* Use flexbox layout */
+    justify-content: space-between;
+    /* Space options apart */
+    width: 50%;
+    /* Take up half the width */
+    margin-bottom: 16px;
+    /* Space below the options */
+}
+
+/* Styling for gender option labels */
+.gender-options label {
+    font-size: 1rem;
+    /* Font size */
+}
+
+.large-label {
+    font-size: 1.5em;
+}

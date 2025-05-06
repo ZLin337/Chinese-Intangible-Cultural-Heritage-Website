@@ -1,0 +1,68 @@
+.sitemap ul {
+    /* padding: 2%; */
+    margin: 1%;
+}
+
+
+.sitemap li {
+    margin: 1%;
+}
+
+
+a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+
+a:hover {
+    color: #007bff;
+}
+
+
+.sitemap ul ul {
+    margin-left: 20px;
+}
+
+
+.sitemap ul ul li {
+    margin: 1%;
+}
+
+
+.sitemap ul ul a {
+    color: #555;
+}
+
+
+.sitemap ul ul a:hover {
+    color: #007bff;
+}
+
+/* Styles for sitemap container */
+.sitemap-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/* Styles for sitemap lists */
+.wholemap,
+.css-js-list {
+    /* list-style-type: none; */
+    padding: 0;
+    width: 50%;
+}
+
+.section-heading {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+
+ul.wholemap,
+ul.css-js-list {
+    list-style-type: none;
+    padding-left: 0;
+}

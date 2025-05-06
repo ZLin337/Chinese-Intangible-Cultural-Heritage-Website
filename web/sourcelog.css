@@ -1,0 +1,26 @@
+table {
+    border: 5px solid lightblue;
+    margin: auto;
+    width: 80%;
+    /* background-color: #92a7d1; */
+    font-size: large;
+}
+
+body {
+    margin: auto;
+    height: 100%;
+    text-align: center;
+}
+
+th {
+    background: none;
+    color: black;
+    border: 0px;
+    padding: 0px;
+    margin: 0 auto;
+}
+
+caption {
+    color: cadetblue;
+    font-size: large;
+}

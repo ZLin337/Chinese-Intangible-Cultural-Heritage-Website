@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewpoint" content="width=device-width,initial-scale=1.0"> -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="gallery.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fullcalendar@5.11.3/main.min.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+</head>
+
+<body>
+    <!-- Header container with logo, title, and social sharing buttons -->
+    <div class="header-container">
+        <img src="source/logo.jpeg" alt="logo" class="logo">
+        <div class="current-date-time"></div>
+        <h1>Chinese Intangible Cultural Heritage</h1>
+        <div class="social-share">
+            <!-- Facebook, LinkedIn, and Twitter sharing buttons -->
+            <div id="fb-root"></div>
+            <script async defer crossorigin="anonymous"
+                src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v19.0" nonce="3UgVxWhG"></script>
+            <div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button"
+                data-size="small">
+                <a target="_blank"
+                    href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse"
+                    class="fb-xfbml-parse-ignore">Share</a>
+            </div>
+            <script src="https://platform.linkedin.com/in.js" async defer></script>
+            <script type="IN/Share" data-url="https://www.linkedin.com"></script>
+            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button"
+                data-show-count="false">Tweet</a>
+            <script async src="https://platform.twitter.com/widgets.js"></script>
+        </div>
+
+    </div>
+    <!-- Navigation bar with links to different pages -->
+    <div class="top-bar">
+        <ul class="navigation">
+            <li class="item"><a href="index.html" aria-label="Home page">Home</a></li>
+            <li class="item"><a href="about.html" aria-label="About us">About</a></li>
+            <li class="item dropdown">
+                <a href="explore.html" aria-label="Explore content">Explore</a>
+                <ul class="second-bar">
+                    <li class="item"><a href="explore.html" aria-label="Explore more">explore</a></li>
+                    <li class="item"><a href="seemore.html" aria-label="See more content">see more</a></li>
+                </ul>
+            </li>
+
+            <li class="item"><a href="gallery.html" aria-label="View gallery" style="color: #efc354;">Gallery</a></li>
+            <li class="item"><a href="feedback.html" aria-label="Give feedback">Feedback</a></li>
+            <li class="item dropdown">
+                <a href="assignment.html" aria-label="View assignments">Assignment</a>
+                <ul class="second-bar">
+                    <li class="item"><a href="sitemap.html" aria-label="View site map">Sitemap</a></li>
+                    <li class="item"><a href="sourcelog.html" aria-label="View source log">Sourcelog</a></li>
+                    <li class="item"><a href="reflective.html" aria-label="Read reflective content">Reflecting</a></li>
+                    <li class="item"><a href="check.html" aria-label="check validation">Check</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Gallery section -->
+    <div class="gallery">
+        <!-- Header with background image and overlay text -->
+        <div class="about-header">
+            <img src="source/about_back.jpg" alt="about background">
+            <div class="text-overlay">Gallery</div>
+        </div>
+        <!-- Gallery container with different sections -->
+        <div class="gallery-container">
+            <!-- Section 1: Literature and Folklore -->
+            <div class="gallery-section" id="section1">
+                <div class="title">Literature and Folklore</div>
+                <img src="source/gallery/photo1.1.png" alt="Photo 1.1">
+                <!-- Additional photos hidden initially -->
+                <img src="source/gallery/photo1.2.png" alt="Photo 1.2" class="hidden">
+                <img src="source/gallery/photo1.3.png" alt="Photo 1.3" class="hidden">
+                <img src="source/gallery/photo1.4.png" alt="Photo 1.4" class="hidden">
+            </div>
+
+            <!-- Section 2: Music and Dance -->
+            <div class="gallery-section" id="section2">
+                <div class="title">Music and Dance</div>
+                <img src="source/gallery/photo2.1.png" alt="Photo 2.1">
+                <!-- Additional photos hidden initially -->
+                <img src="source/gallery/photo2.2.png" alt="Photo 2.2" class="hidden">
+                <img src="source/gallery/photo2.3.png" alt="Photo 2.3" class="hidden">
+                <img src="source/gallery/photo2.4.png" alt="Photo 2.4" class="hidden">
+            </div>
+            <!-- Section 3: Traditional Drama and Folk Art -->
+            <div class="gallery-section" id="section3">
+                <div class="title">Traditional Drama and Folk Art</div>
+                <img src="source/gallery/photo3.1.png" alt="Photo 3.1">
+                <img src="source/gallery/photo3.2.png" alt="Photo 3.2" class="hidden">
+                <img src="source/gallery/photo3.3.png" alt="Photo 3.3" class="hidden">
+                <img src="source/gallery/photo3.4.png" alt="Photo 3.4" class="hidden">
+                <img src="source/gallery/photo3.5.png" alt="Photo 3.5" class="hidden">
+            </div>
+            <!-- Section 4: Traditional Sports and Acrobatics -->
+            <div class="gallery-section" id="section4">
+                <div class="title">Traditional Sports and Acrobatics</div>
+                <img src="source/gallery/photo4.1.png" alt="Photo 4.1">
+                <img src="source/gallery/photo4.2.png" alt="Photo 4.2" class="hidden">
+            </div>
+            <!-- Section 5: Art Skills -->
+            <div class="gallery-section" id="section5">
+                <div class="title">Art Skills</div>
+                <img src="source/gallery/photo5.1.png" alt="Photo 5.1">
+                <img src="source/gallery/photo5.2.png" alt="Photo 5.2" class="hidden">
+                <img src="source/gallery/photo5.3.png" alt="Photo 5.3" class="hidden">
+                <img src="source/gallery/photo5.4.png" alt="Photo 5.4" class="hidden">
+            </div>
+            <!-- Section 6: Medicament -->
+            <div class="gallery-section" id="section6">
+                <div class="title">Medicament</div>
+                <img src="source/gallery/photo6.1.png" alt="Photo 6.1">
+            </div>
+        </div>
+    </div>
+    <!-- Footer with navigation links, relevant websites, and subscription form -->
+    <div class="footer">
+        <ul class="foot-navigation">
+            <li class="item"><a href="index.html" aria-label="Home page">Home</a></li>
+            <li class="item"><a href="about.html" aria-label="About us">About</a></li>
+            <li class="item"><a href="explore.html" aria-label="Explore">Explore</a></li>
+            <li class="item"><a href="gallery.html" aria-label="Gallery">Gallery</a></li>
+            <li class="item"><a href="feedback.html" aria-label="Feedback">Feedback</a></li>
+            <li class="item"><a href="assignment.html" aria-label="Assignment">Assignment</a></li>
+            <li class="item"><a href="sitemap.html" aria-label="Sitemap">Sitemap</a></li>
+            <li class="item"><a href="reflective.html" aria-label="Reflecting">Reflecting</a></li>
+            <li class="item"><a href="check.html" aria-label="check validation">Check</a></li>
+        </ul>
+        <div class="relevant_websites">
+            <h4>relevant websites</h4>
+            <div class="re_web">
+                <a href="https://ich.unesco.org/en/home#/"
+                    aria-label="Visit UNESCO Intangible Cultural Heritage Website">unesco Intangible Cultural Heritage
+                    Website</a>
+                <a href="https://www.ihchina.cn" aria-label="Visit Chinese Intangible Cultural Heritage Website">Chinese
+                    Intangible Cultural Heritage Website</a>
+            </div>
+        </div>
+        <div class="subscribe-section">
+            <h4>Stay Updated</h4>
+            <form action="subscribe" method="post" aria-label="Subscribe to newsletter">
+                <input type="email" name="email" placeholder="Enter your email" required>
+                <button type="submit" aria-label="Subscribe to our newsletter">Subscribe</button>
+            </form>
+        </div>
+        <div class="copyright">
+            <p>© 2024 Chinese Intangible Cultural Heritage. All rights reserved.</p>
+            <p>Author: Lin Zhuolan</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="gallery.js"></script>
+</body>
+
+
+</html>

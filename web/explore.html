@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewpoint" content="width=device-width,initial-scale=1.0">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fullcalendar@5.11.3/main.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@5.11.3/main.min.js"></script>
+
+    <title>Explore</title>
+</head>
+
+<body>
+    <!-- Header container with logo, title, and social sharing buttons -->
+    <div class="header-container">
+        <img src="source/logo.jpeg" alt="logo" class="logo">
+        <div class="current-date-time"></div>
+        <h1>Chinese Intangible Cultural Heritage</h1>
+        <div class="social-share">
+            <!-- Facebook, LinkedIn, and Twitter sharing buttons -->
+            <div id="fb-root"></div>
+            <script async defer crossorigin="anonymous"
+                src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v19.0" nonce="3UgVxWhG"></script>
+            <div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button"
+                data-size="small">
+                <a target="_blank"
+                    href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse"
+                    class="fb-xfbml-parse-ignore">Share</a>
+            </div>
+            <script src="https://platform.linkedin.com/in.js" async defer></script>
+            <script type="IN/Share" data-url="https://www.linkedin.com"></script>
+            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button"
+                data-show-count="false">Tweet</a>
+            <script async src="https://platform.twitter.com/widgets.js"></script>
+        </div>
+
+    </div>
+
+    <div class="top-bar">
+        <ul class="navigation" aria-label="Main navigation">
+            <li class="item">
+                <a href="index.html" aria-label="Navigate to home page">Home</a>
+            </li>
+            <li class="item">
+                <a href="about.html" aria-label="Learn more about us">About</a>
+            </li>
+            <li class="item dropdown" aria-haspopup="true" aria-expanded="false">
+                <a href="explore.html" aria-label="Currently viewing Explore page" style="color: #efc354;">Explore</a>
+                <ul class="second-bar">
+                    <li class="item"><a href="explore.html" style="color: #2c79c1;"
+                            aria-label="Explore deeper">explore</a>
+                    </li>
+                    <li class="item"><a href="seemore.html" aria-label="See more cultural elements">see more</a></li>
+                </ul>
+            </li>
+            <li class="item"><a href="gallery.html" aria-label="View our gallery">Gallery</a></li>
+            <li class="item"><a href="feedback.html" aria-label="Provide feedback">Feedback</a></li>
+            <li class="item dropdown" aria-haspopup="true" aria-expanded="false">
+                <a href="assignment.html" aria-label="View assignments and educational content">Assignment</a>
+                <ul class="second-bar">
+                    <li class="item"><a href="sitemap.html" aria-label="View sitemap of the website">Sitemap</a></li>
+                    <li class="item"><a href="sourcelog.html" aria-label="Check source log for updates">Sourcelog</a>
+                    </li>
+                    <li class="item"><a href="reflective.html"
+                            aria-label="Read reflective essays on cultural heritage">Reflecting</a></li>
+                    <li class="item"><a href="check.html" aria-label="check validation">Check</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div class="explore">
+        <div class="about-header">
+            <img src="source/about_back.jpg" alt="about background">
+            <div class="text-overlay">Explore</div>
+        </div>
+        <div class="explore-content">
+            <div class="explore-section" id="literature-and-folklore">
+                <div class="section-header">Literature and folklore</div>
+                <div class="section-content">
+                    <div class="image-wrapper">
+                        <h3>Tea</h3>
+                        <a
+                            href="https://www.youtube.com/watch?v=G160uZiomd4&list=PLBMCZjFj3139DCXA7tGmnpgAsVulZQvf6&index=1&t=49s">
+                            <img src="source/gallery/photo1.1.png" alt="Image 1">Tea</a>
+
+                    </div>
+                    <div class="image-wrapper">
+                        <h3>Mooncake</h3>
+                        <a href="https://www.youtube.com/watch?v=DzkhbxBpJX8">
+                            <img src="source/gallery/photo1.2.png" alt="Image 2"></a>
+                    </div>
+                    <div class="image-wrapper">
+                        <h3>Chinese New Year</h3>
+                        <a href="https://www.youtube.com/watch?v=kz7SaOj-fjA">
+                            <img src="source/gallery/photo1.3.png" alt="Image 3"></a>
+                    </div>
+                    <!-- <div class="description">Brief description of the content in this section.</div> -->
+                    <a href="seemore.html" class="see-more">See More</a>
+                </div>
+            </div>
+            <div class="explore-section" id="music-and-dance">
+                <div class="section-header">Music and Dance</div>
+                <div class="section-content">
+                    <div class="image-wrapper">
+                        <h3>Yingge Dance</h3>
+                        <a href="https://www.youtube.com/watch?v=9Qj2rUkft_w">
+                            <img src="source/gallery/photo2.1.png" alt="Image 1"></a>
+                    </div>
+                    <div class="image-wrapper">
+                        <img src="source/gallery/photo2.2.png" alt="Image 2">
+                    </div>
+                    <div class="image-wrapper">
+                        <img src="source/gallery/photo2.3.png" alt="Image 3">
+                    </div>
+                    <a href="seemore.html" class="see-more">See More</a>
+                </div>
+            </div>
+            <div class=" explore-section" id="traditional-drama-and-folk-art">
+                <div class="section-header">Traditional Drama and Folk Art</div>
+                <div class="section-content">
+                    <div class="image-wrapper">
+                        <h3>Peking Opera</h3>
+                        <a href="https://www.youtube.com/watch?v=ka5z3uYctug">
+                            <img src="source/gallery/photo3.1.png" alt="Image 1"></a>
+
+                    </div>
+                    <div class="image-wrapper">
+                        <h3>Yueju Opera</h3>
+                        <a href="https://www.youtube.com/watch?v=w2GNsHUfrF8">
+                            <img src="source/gallery/photo3.2.png" alt="Image 2"></a>
+                    </div>
+                    <div class="image-wrapper">
+                        <h3>Shadow Puppets</h3>
+                        <a href="https://www.youtube.com/watch?v=A_5jvfEkk1I">
+                            <img src="source/gallery/photo3.3.png" alt="Image 3"></a>
+                    </div>
+                    <a href="seemore.html" class="see-more">See More</a>
+                </div>
+
+            </div>
+            <div class="explore-section" id="traditional-sports-and-acrobatics">
+                <div class="section-header">Traditional Sports and Acrobatics</div>
+                <div class="section-content">
+                    <div class="image-wrapper">
+                        <h3>Taichi</h3>
+                        <a href="https://www.youtube.com/watch?v=fozrIyhZlh0">
+                            <img src="source/gallery/photo4.1.png" alt="Image 1">
+                        </a>
+                    </div>
+                    <div class="image-wrapper">
+                        <h3>Dragon Boat</h3>
+                        <a href="https://www.youtube.com/watch?v=s6IJnbc1_yU#/">
+                            <img src="source/gallery/photo4.2.png" alt="Image 2"></a>
+                    </div>
+                    <div class="image-wrapper">
+                        <img src="source/gallery/photo4.3.png" alt="Image 3">
+                    </div>
+                    <a href="seemore.html" class="see-more">See More</a>
+                </div>
+            </div>
+            <div class="explore-section" id="art-skills">
+                <div class="section-header">Art Skills</div>
+                <div class="section-content">
+                    <div class="image-wrapper">
+                        <h3>Calligraphy</h3>
+                        <a href="https://www.youtube.com/watch?v=PneprVUiGDs&t=26s">
+                            <img src="source/gallery/photo5.1.png" alt="Image 1"></a>
+
+                    </div>
+                    <div class="image-wrapper">
+                        <h3>Sugar sculpture</h3>
+                        <a href="https://www.youtube.com/watch?v=jo8RRnnH3_E">
+                            <img src="source/gallery/photo5.2.png" alt="Image 2"></a>
+                    </div>
+                    <div class="image-wrapper">
+                        <h3>Paper Cutting</h3>
+                        <a href="https://www.youtube.com/watch?v=W6e9pUAAqP8">
+                            <img src="source/gallery/photo5.3.png" alt="Image 3"></a>
+                    </div>
+                    <a href="seemore.html" class="see-more">See More</a>
+                </div>
+
+            </div>
+            <div class="explore-section" id="Medicament">
+                <div class="section-header">Medicament</div>
+                <div class="section-content">
+                    <div class="image-wrapper">
+                        <h3>Acupuncture</h3>
+                        <a href="https://www.youtube.com/watch?v=G87SfHPHj0A">
+                            <img src="source/gallery/photo6.1.png" alt="Image 1"></a>
+                    </div>
+                    <div class="image-wrapper">
+                        <img src="source/gallery/photo2.2.png" alt="Image 2">
+                    </div>
+                    <div class="image-wrapper">
+                        <img src="source/gallery/photo2.3.png" alt="Image 3">
+                    </div>
+                    <a href="seemore.html" class="see-more">See More</a>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <!-- Footer with navigation links, relevant websites, and subscription form -->
+    <div class="footer">
+        <ul class="foot-navigation">
+            <li class="item"><a href="index.html" aria-label="Home page">Home</a></li>
+            <li class="item"><a href="about.html" aria-label="About us">About</a></li>
+            <li class="item"><a href="explore.html" aria-label="Explore">Explore</a></li>
+            <li class="item"><a href="gallery.html" aria-label="Gallery">Gallery</a></li>
+            <li class="item"><a href="feedback.html" aria-label="Feedback">Feedback</a></li>
+            <li class="item"><a href="assignment.html" aria-label="Assignment">Assignment</a></li>
+            <li class="item"><a href="sitemap.html" aria-label="Sitemap">Sitemap</a></li>
+            <li class="item"><a href="reflective.html" aria-label="Reflecting">Reflecting</a></li>
+            <li class="item"><a href="check.html" aria-label="check validation">Check</a></li>
+        </ul>
+        <div class="relevant_websites">
+            <h4>relevant websites</h4>
+            <div class="re_web">
+                <a href="https://ich.unesco.org/en/home#/"
+                    aria-label="Visit UNESCO Intangible Cultural Heritage Website">unesco Intangible Cultural Heritage
+                    Website</a>
+                <a href="https://www.ihchina.cn" aria-label="Visit Chinese Intangible Cultural Heritage Website">Chinese
+                    Intangible Cultural Heritage Website</a>
+            </div>
+        </div>
+        <div class="subscribe-section">
+            <h4>Stay Updated</h4>
+            <form action="subscribe" method="post" aria-label="Subscribe to newsletter">
+                <input type="email" name="email" placeholder="Enter your email" required>
+                <button type="submit" aria-label="Subscribe to our newsletter">Subscribe</button>
+            </form>
+        </div>
+        <div class="copyright">
+            <p>© 2024 Chinese Intangible Cultural Heritage. All rights reserved.</p>
+            <p>Author: Lin Zhuolan</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
